@@ -19,7 +19,7 @@ This is another smal PowerShell script to generate the client and server configu
 
 ```
 $serverPubKey = "your wireguard servers public key"
-$routeIPNet = "10.10.1.0/24" # route all traffic for this ip over vpn tunnel
-$endpoint = "ip:51900" # ip or hostname of wireguard server
-$clientTunnelIP = "172.16.0.x/32" # ip address for tunnel network
+$routeIPNet = "192.168.178.0/24" # only traffic for this ip net will use the vpn tunnel
+$endpoint = "hostname.com:51900" # ip/hostname and port of your wireguard server
+$clientTunnelIP = "172.16.0.x/32" # Tunnel Net, this network should not conflict with your internal network
 ```

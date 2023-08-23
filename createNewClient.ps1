@@ -1,6 +1,6 @@
-$serverPubKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+$serverPubKey = "yourServersPublicKey"
 $routeIPNet = "192.168.178.0/24"
-$endpoint = "ip:51900"
+$endpoint = "hostname.com:51900"
 $clientTunnelIP = "172.16.0.x/32"
 
 $name= Read-Host -Prompt "Enter client name"
